@@ -55,7 +55,7 @@ hr {
 
 #showcase {
   min-height: 450px;
-  color: #000;
+  color: #cc6600;
   text-align: center;
 }
 
@@ -170,6 +170,16 @@ hr {
   .grid {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+  
+  #showcase {
+    color: #000;
+  }
+  
+  
+  .btn {
+    background: none;
+    color: #000;
   }
 
   #section-a .content-text {
