@@ -81,7 +81,22 @@ hr {
   padding: 0 1.5em;
 }
 
-/* Sections for Grids */
+/* Sections and Grids */
+
+.circular-image {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.circular-image img {
+  width: auto;
+  height: 100%;
+  margin-left: -110px;
+}
 
 #section-a {
   background: #fff;
@@ -171,12 +186,11 @@ hr {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
-  
+
   #showcase {
     color: #000;
   }
-  
-  
+
   .btn {
     background: none;
     color: #000;
@@ -188,7 +202,7 @@ hr {
   }
 
   #section-a .content-text p {
-    padding-top: 0;
+    padding-top: 2em;
   }
 
   .content-wrap,
